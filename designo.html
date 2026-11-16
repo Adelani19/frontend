@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>    
+    <style>
+        
+        body {
+            display: flex;
+            flex-direction: column;
+            padding-left: 30px;
+            padding-right: 30px;
+            gap:30px;
+            background-color: azure;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+          
+            }
+            .design {
+                font-size: 1.5rem;
+            }
+        header nav{
+            
+            display: flex;
+            gap: 20px; 
+        }
+        nav a{
+            color: black;
+            text-decoration: none;
+        }
+        .card1{
+            background-color: rgb(210, 99, 117);
+            height: 150px;
+            width: 97%;
+            border-radius: 20px;
+            padding: 20px;
+            display: flex;
+            flex-direction: row;
+            
+        }
+        .insidecard1{
+            display: flex;
+            margin-top: auto;
+            margin-bottom: auto;
+            color: white;
+            width: 45%;
+            font-size: larger;
+        }
+        .insidecard2{
+            display: flex;
+            flex-direction: column;
+            margin-top: 30px;
+            color: white;
+            margin-left: 50px;
+            font-size: larger;
+        }
+        .insidecard3{
+            width: 2px;
+            height: 80px;
+            margin-top: auto;
+            margin-bottom: auto;
+            background-color: white;
+        }
+        button{
+            width: 120px;
+            height: 35PX;
+            border-radius: 10px;
+            margin-top: 20px;
+            
+        }
+        .card2{
+            display: flex;
+            gap: 20px;
+ 
+        
+        }
+        .subdiv{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            
+        }
+        .insidecard21{
+            background-color: rgb(49, 2, 2);
+            height: 300x;
+            width: 600px;
+            padding-left: 20px;
+            padding-bottom: 10px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            
+        }
+        .insidecard21:hover{
+            background-color: rgb(239, 128, 146);
+        }
+        .insidecard22{
+            background-color: black;
+            height: 120px;
+            width: 600px; 
+            border-radius: 20px;
+            padding-left: 20px;
+            padding-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content:  end;
+            }
+            .insidecard22:hover{
+                background-color: brown;
+            }
+        .insidecard23{
+            background-color: rgb(210, 99, 117);
+            height: 120px;
+            width: 600px;
+            border-radius: 20px;
+            padding-left: 20px;
+            padding-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content:  end; 
+        }
+        .insidecard23:hover{
+            background-color: rgb(95, 73, 46);
+        }
+        .cardh2{
+            color: white;
+            font-size: large;
+        }
+        .nd{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            margin-top: 5px;
+        }
+        div a{
+            color: rgb(240, 55, 55);
+            text-decoration: none;
+            font-size: small;
+        }
+       
+        .line{
+            width: 15px;
+            height: 2px;
+            background-color: rgb(245, 53, 53);
+
+        }
+        .card3{
+            display: flex;
+            justify-content: center;
+            margin-top: 35px;
+            font-size: larger;
+        }
+        .card4{
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+            justify-content: center;
+        }
+        .card41{
+            display: flex;
+            flex-direction: column;
+            width: 150px;
+            align-items: center;
+            text-align: center;
+        }
+        .card411{
+            height: 50px;
+            width: 50px;
+            border-radius:50%;
+            background-color: pink;
+            align-content: center;
+        }
+        .card5{
+            background-color: rgb(210, 99, 117);
+            display: flex;
+            flex-direction: row;
+            width: 97%;
+            height: 150px;
+            border-radius: 20px;
+            padding: 20px;
+            gap: 20px;
+        }
+        .card55{
+            display: flex;
+            flex-direction: column;
+            width: 70%;
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-left: 50px;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1rem;
+        }
+        div button{
+            border: 2px solid white;
+            background-color: rgb(210, 99, 117) ;
+            border-radius: 5px;
+            color: white;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+        button:hover{
+            cursor: pointer;
+        }
+        footer{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            background-color: rgb(43, 39, 39);
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-top: 20px;
+            padding-bottom: 30px;
+        }
+        .card6{
+            display: flex;
+            flex-direction: row;
+            color: gray;
+            
+        }
+        .design2{
+            color: white;
+            font-size: 1.5rem;
+            width: 60%;
+            margin-left: 30px;
+      
+            
+
+            
+        }
+        .foot1{
+            color: white;
+            font-size: large;
+        }
+        .foot2{
+            display: flex;
+            gap: 30px;
+        }
+        hr{
+            width: 80%;
+            line-height: 1px;
+            color: gray ;
+          
+        }
+        .card61{
+            display: flex;
+            flex-direction: column;
+            color: gray;
+            width: 60%;
+            margin-left: 30px;
+            gap: 0;
+        }
+        
+        div h4{
+            color: gray;
+        }
+       .card62{
+        color: gray;
+       }
+       .card63{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: right;
+       }
+       .card633{
+        display: flex;
+        height: 40px;
+        width: 40px;
+        border: 1px solid white;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        color: white;
+       }
+
+    </style>
+</head>
+<body>
+    <header>
+        <a class="design">DESIGNO</a>
+        <nav>
+            <a href="#ourcompany">Our Company</a>
+            <a href="#location">Location</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        
+    </header>
+    <div class="card1">
+        <div class="insidecard1">
+            Award-winning<br>custom designs and<br>digital branding
+        </div>
+
+        <div class="insidecard3"></div>
+
+        <div class="insidecard2">
+            With over 10 yearrs in the industry, we are experienced in creating fully
+            responsive websites, app design, and engaging brand experiences. 
+            Find out  more about our Service
+            <BUtton>LEARN MORE</BUtton>
+        </div>
+    </div>
+    <div class="card2">
+        <div class="insidecard21">
+            <div class="cardh2">WEB  DESIGN</div>
+            <div class="nd">
+                 <div><a href="#">VIEW PROJECT</a> </div>
+                 <div class="line"></div>
+            </div>
+           
+        </div>
+        <div class="subdiv">
+            <div class="insidecard22">
+                    <div class="cardh2">APP DESIGN</div>
+                    <div class="nd">
+                        <div> <a href="#">VIEW PROJECT</a></div>
+                        <div class="line"></div>
+                    </div>
+            </div>
+
+            <div class="insidecard23">
+                <div class="cardh2">GRAPHIC DESIGN</div>
+                <div class="nd">
+                    <div><a href="#">VIEW PROJECT</a></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </div>        
+    </div>
+
+    <div class="card3">
+        Why Designo?
+    </div>
+    
+    <div class="card4">
+        <div class="card41">
+                <div class="card411">
+                </div>
+                <h3>PASSIONATE</h3>
+                Each  project starts with an in-depth brand research to ensure we only create
+                products that resonate with the audience.
+        </div>
+        <div class="card41">
+            <div class="card411"></div>
+            <h3>RESOURCEFUL</h3>
+            Everything that we do has a strategic purpose. We use an agile
+            approach in all of our projects and value customers collaboration.
+        </div>
+        <div class="card41">
+            <div class="card411">❤️</div>
+            <h3>FRIENDLY</h3>
+            We are a group of enthusiastic folks who know how to put people first. Our success depends
+            on our customers being satisfied.
+        </div>
+    </div>
+
+    <div class="card5">
+        <div class="card55"><h2>Let's talk about your project</h2>
+            Ready to take it to the next level? Contact us today and <br>find out how
+            our expertise can help your business grow.
+        </div>
+        <button>GET IN TOUCH</button>
+    </div>
+
+    <footer>
+        <div class="card6">
+            <a class="design2">DESIGNO</a>
+        <nav class="foot2">
+            <a class="foot1" href="#ourcompany">Our Company</a>
+            <a class="foot1" href="#location">Location</a>
+            <a class="foot1" href="#contact">Contact</a>
+        </nav>
+        </div>
+        
+        <hr>
+        
+        <div class="card6">
+            <div class="card61"><h4>Designo Central Office</h4>3886 Wellington Street <br>Toronto, 
+                Ontario M9C 3J5
+            </div>
+            <div class="card62"><span style="color: gray;">P: </span><a href="#call"> +1 253-863-8967</a>
+                <a href=""></a>
+             
+            </div>
+        </div>
+        
+        <div class="card63">
+            <div class="card633">f</div>
+            <div class="card633">y</div>
+            <div class="card633">in</div>
+            <div class="card633">p</div>
+        </div>
+        
+    </footer>
+
+
+</body>
+</html>

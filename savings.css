@@ -1,0 +1,222 @@
+body{
+    background-color: black;
+   
+    padding: 15px;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.logo{
+    font-size:1.5rem;
+    
+}
+.card1{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    
+}
+.card11{
+    height: 100px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: rgb(67, 65, 65);
+    border-radius: 10px;
+    padding: 20px;
+    justify-content: center;
+    font-size: 1.2rem;
+    gap: 5px;
+}
+.card101{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    
+}
+.card2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    gap: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+.card22{
+    height: 200px;
+    width: 45.5%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 20px;
+    gap: 25px;
+    justify-content: center;
+}
+.card202{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.original{
+display: flex;
+flex-direction: column;
+gap: 15px;
+}
+.card206{
+    height:7px;
+    border-radius: 2px;
+    background-color: rgb(172, 197, 197);
+}
+.card203{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(203, 242, 242);
+}
+.card204{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black
+}
+.card205{
+    color: rgb(95, 94, 94);
+    font-size: large;
+}
+.head2, .head3,.head4{
+    font-size: 1.3rem;
+}
+.card3{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    gap: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    justify-items:end ;
+    align-items: center;
+    justify-content: center;
+}
+.card4{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    height: 250px;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 20px;
+    justify-content: center;
+    
+}
+.card31{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 190px;
+    justify-content: flex-end;
+}
+.card311{
+    background-color: rgb(110, 198, 230);
+    height: 50px;
+    width: 130px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card322{
+    color: rgb(160, 157, 157);
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.card321{
+    background-color: rgb(110, 198, 230);
+    height: 95px;
+    width: 130px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card331{
+    background-color: rgb(110, 198, 230);
+    height: 90px;
+    width: 130px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card341{
+    background-color: rgb(110, 198, 230);
+    height: 110px;
+    width: 130px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card351{
+    background-color: rgb(110, 198, 230);
+    height: 100px;
+    width: 130px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card361{
+    background-color: rgb(110, 198, 230);
+    height: 120px;
+    width: 130px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card373{
+    background-color: black;
+    height: 180px;
+    width: 130px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card41{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.card400{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(161, 222, 222);
+    justify-content: center;
+    align-items: center;
+}
+.card411{
+    width: 150px;
+    font-size: 1.3rem;
+}
+.card419{
+    width: 85%;
+}
+hr{
+    background-color: gray;
+    width: 100%;
+}
+.card413{
+    color: gray;
+}
+.card412{
+    color: blue;
+    font-weight: bold;
+}

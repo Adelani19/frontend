@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(207, 249, 249);
+            display: flex;
+            flex-direction: column;
+        }
+
+    header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    
+    
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+header h2 a{
+    text-decoration: none;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.first{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.signup{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    border-radius: 10px;
+    height: 30px;
+    align-items: center;
+    color: white;
+}
+.signup a{
+    color: white;
+}
+.writeup{
+    display: flex;
+    text-align: center;
+    font-size:larger ;
+    width:40%;
+}
+.apply{ background-color: blue;
+    height: 50px;
+    width: 200px;
+
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    margin-top: 20px;
+
+}
+.card1{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 40px;
+    padding: 15px;
+    justify-content: center;
+
+}
+.card11{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    height: 300px;
+    width: 250px;
+    padding: 15px;
+    align-items: center;
+    margin: 0;
+}
+.big1{
+    font-size: 1.8rem;
+    width: 150px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+}
+.big2{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+footer{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.foot1{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 300px;
+    
+}
+.foot2{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.foot21{
+
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    color: white;
+    gap: 5px;
+}
+.page1{
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+    
+}
+.page1 a{
+    display: flex;
+    flex-direction: row;
+    
+}
+.foot21 a{
+    color: gray;
+    text-decoration: none;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+    </style> 
+</head>
+<body>
+    <header><h2><a href="LoanAptech">LoanAptech</a></h2>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Loans</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Login</a>
+        <button style="background-color: blue; border-radius: 10px; height: 30px; align-content: center;">Sign Up</button>
+    </nav>
+
+        
+    </header>
+    <div class="first">
+        <div><h1>Welcome to LoanAptech</h1></div>
+
+        <div class="writeup">Get instant personal loans up to $50,000 with low interest rates
+            and flexible repayment option.
+        </div>
+
+        <button class="apply"><h3>Apply Now, It's Free</h3></button>
+    </div>
+
+    <div class="card1">
+            <div class="card11">
+                <h2 class="big1">Lightnig Fast</h2>
+                <p class="big2">Lightnig Fast <br> Aproval</p>
+                <p>Get decision in under 10 minutes</p>
+            </div>
+            <div class="card11">
+                <h2 class="big1">Lightnig Fast</h2>
+                <p class="big2">Lightnig Fast <br> Aproval</p>
+                <p>Get decision in under 10 minutes</p>
+            </div>
+            <div class="card11" >
+                <h2 class="big1">Lightnig Fast</h2>
+                <p class="big2">Lightnig Fast <br> Aproval</p>
+                <p>Get decision in under 10 minutes</p>
+            </div>
+        </div>
+
+
+        <div class="page1">Already applied?
+            <a href="#" style="font-weight: bold;">Check Loan Status</a>
+            <div style="background-color: black; width: 10px; height: 10px; 
+            border-radius: 50%; display: flex; margin-top: auto; margin-bottom: auto;"></div>
+            <a href="#" style="font-weight: bold;">Go to Dashboard</a>
+        </div>
+        
+        
+        <footer>
+            <div class="foot1">
+                <h2 style="color: rgb(194, 66, 194);">LoanAptech</h2>
+                <p style="color: rgb(109, 106, 106);">Your trusted partner for fast, transparent, and affordable loan solutions.</p>
+            </div>
+
+            <div class="foot2">
+                <div class="foot21">
+                    <h3>Quick Links</h3>
+                    <a href="#">Home</a>
+                    <a href="#">Loan product</a>
+                    <a href="#">Apply Now</a>
+                    <a href="#">About Us</a>
+
+                </div>
+                <div class="foot21">
+                    <h3>Support</h3>
+                    <a href="#">Contact Us</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+                <div class="foot21">
+                    <h3>Get in Touch</h3>
+                    <a href="#">Support@loanaptech.com</a>
+                    <a href="#">+1 (555) 123-4567</a>
+                    <a href="#">Mon-Fri:9AM-6PM EST</a>
+                    
+                </div>
+            </div>
+        </footer>
+    
+</body>
+</html>
